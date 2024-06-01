@@ -396,7 +396,6 @@ body{
         align-items: center;
         width: 280px;
         height: 300px;
-        overflow: auto;
     }
     .search-image-box img{
         display: inline;
