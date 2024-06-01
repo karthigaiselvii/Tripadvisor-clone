@@ -198,7 +198,7 @@ body{
 .award__card, .tour-card, .hotspot-card, .destination-card{
     flex-grow: 1;
     flex-basis: 20%;
-    margin: 5px;
+    margin: 2px;
 }
 .award-container, .tour-container, .hotspot-container, .destination-container{
     display: flex;
@@ -275,6 +275,9 @@ body{
     background-color: #faf1ed;
     padding: 10px;
 }
+.explore h2{
+    margin-bottom: 10px;
+}
 .explore-container{
     display: flex;
     justify-content: space-between;
@@ -313,8 +316,7 @@ body{
 }
 .footer{
     background-color: #faf1ed;
-    width: 100%;
-    margin-top: 30px;
+    margin: 0px;
     padding: 20px;
 }
 .footer-container{
@@ -371,6 +373,10 @@ body{
     }
 }
 @media screen and (max-width:600px){
+    body{
+        margin: 20px;
+        font-size: 10px;
+    }
     .navbar__s2{
         display: none;
     }
@@ -383,7 +389,18 @@ body{
     .navbar-s5{
         display: block;
     }
-    
+    .search-image-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        height: 300px;
+        overflow: auto;
+    }
+    .search-image-box img{
+        display: inline;
+    }
     .award__card, .tour-card, .hotspot-card, .destination-card{
         flex-basis: 40%;
     }
