@@ -394,7 +394,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 265px;
+        width: 70%;
         height: 300px;
     }
     .search-image-box img{
